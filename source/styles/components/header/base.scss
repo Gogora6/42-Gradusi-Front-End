@@ -1,0 +1,92 @@
+header {
+    padding: 36px 0;
+
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        width: 86%;
+        margin: 0 auto;
+
+        nav {
+
+            ul {
+                display: flex;
+
+                a:first-child {
+                    margin-right: 7px;
+                }
+
+                a:nth-child(2) {
+
+                    li {
+                        color: $color-1;
+                    }
+                }
+
+                a:nth-child(3) {
+                    margin: 0 20px 0 17px;
+                }
+
+                a:last-child {
+                    margin-left: 20px;
+                }
+
+                .lang {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 25px;
+                    color: $color-2;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+                .langActive {
+                    background-color: $color-3;
+                }
+
+                .profile {
+                    width: 160px;
+                    height: 45px;
+                    border-radius: 25px;
+                    background-color: $color-4;
+                    color: $color-2;
+                    font-size: 1.4rem;
+                }
+
+                .search {
+                    width: 45px;
+                    height: 45px;
+
+                    &::before {
+                        content: '';
+                        display: inline-block;
+                        width: 30px;
+                        height: 30px;
+                        padding: 12px 0 0 19px;
+                        background-image: url ("/images/header/Search.png");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+
+                .burgerMenu {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 25px;
+                    background-color: $color-5;
+
+                    &::before {
+                        content: '';
+                        display: inline-block;
+                        width: 46px;
+                        height: 43px;
+                        background: center;
+                        background-image: url ("/images/header/burger-menu.png");
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}
