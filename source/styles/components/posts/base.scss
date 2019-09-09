@@ -1,0 +1,114 @@
+.post-section {
+
+    .img-4 {
+        position: absolute;
+        margin-top: -70px;
+        margin-left: -86px
+    }
+
+    .img-5 {
+        margin-left: 53px;
+    }
+
+    .img-6 {
+        margin-left: 964px;
+    }
+
+    .post-button-2 {
+        position: absolute;
+        width: 179px;
+        height: 48px;
+        margin: 14px 0 0 393px;
+        padding-top: 19px;
+        border: 3px $color-10 solid;
+        border-radius: 30px;
+        color: $color-10;
+        font-size: 13px;
+        text-align: center;
+
+        &:hover {
+            background-color: $color-10;
+            color: $color-2;
+        }
+
+    }
+    .postWrap {
+        display: flex;
+        width: 1593px;
+        height: 340px;
+        margin: 43px auto ;
+
+        .post {
+            display: flex;
+            flex-wrap: wrap;
+            width: 340px;
+            height: 340px;
+            margin-right: 50px;
+            padding-top: 35px;
+            border: 1px solid #707070;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+            .avatar-img {
+                width: 40px;
+                height: 40px;
+                margin-left: 27px;
+                border-radius: 50%;
+            }
+            h4 {
+                font-size: 14px;
+                padding:16px 0 0 27px;
+            }
+
+            h2 {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 900;
+                margin-top: -4px;
+                margin-left: 25px;
+            }
+
+            .post-button{
+                position: absolute;
+                height: 34px;
+                margin: 229px 0 0 27px;
+                padding-top: 13px;
+                border-radius: 25px;
+                background-color: $color-5;
+                color: $color-2;
+                font-size: 12px;
+                text-align: center;
+            }
+
+            .butWidth-1 {
+                width: 140px;
+
+            }
+
+            .butWidth-2 {
+                width: 112.99px;
+            }
+
+            .butWidth-3 {
+                width: 115px;
+            }
+
+            .butWidth-4 {
+                width: 106px;
+            }
+
+            .pink {
+                background-color: $color-10;
+            }
+
+            .yellow {
+                background-color: $color-11;
+            }
+            
+            .blue {
+                background-color: $color-12;
+            }
+        }
+    }
+}

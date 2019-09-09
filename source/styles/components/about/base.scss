@@ -62,6 +62,11 @@
         font-size: 13px;
         border-radius: 30px;
         text-align: center;
+
+        &:hover {
+            background-color: $color-7;
+            color: $color-2;
+        }
     }
 
     .about-button-2 {
@@ -74,5 +79,10 @@
         color: $color-5;
         font-size: 13px;
         text-align: center;
+
+        &:hover {
+            background-color: $color-5;
+            color: $color-2;
+        }
     }
 }
