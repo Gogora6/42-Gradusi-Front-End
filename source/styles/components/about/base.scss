@@ -1,5 +1,78 @@
 .about {
-    height: 326px;
+    display: flex;
     width: 86%;
-    margin: 60px auto 0 ;
+    margin: 60px auto 0;
+
+    .img-1 {
+        width: 70px;
+        height: 70px;
+        margin-left: 30px;
+    }
+
+    .img-2 {
+        position: absolute;
+        width: 264px;
+        height: 83px;
+        margin-top: 241px;
+        margin-left: 1293px;
+    }
+
+    .img-3 {
+        position: absolute;
+        width: 289px;
+        height: 289px;
+        margin-top: 15px;
+        margin-left: 1749px;
+    }
+
+    .about-main {
+        width: 983px;
+        height: 233px;
+        margin-top: 98px;
+
+        h1 {
+            position: absolute;
+            opacity: .06;
+            font-size: 174.83px;
+            font-weight: 900;
+        }
+
+        h3 {
+            padding: 22px 0 0 77px;
+            font-size: 38px;
+            font-weight: 900;
+            line-height: 50px;
+        }
+
+        p {
+            margin-top: -54px;
+            margin-left: 346px;
+            color: $color-6;
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+
+    .about-button-1 {
+        width: 241px;
+        height: 48px;
+        margin: 134px 0 0 65px;
+        padding-top: 16px;
+        border: 3px $color-7 solid;
+        font-size: 13px;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .about-button-2 {
+        width: 182px;
+        height: 48px;
+        margin: 134px 0 0 17px;
+        padding-top: 16px;
+        border: 3px $color-5 solid;
+        border-radius: 30px;
+        color: $color-5;
+        font-size: 13px;
+        text-align: center;
+    }
 }

@@ -6,6 +6,13 @@ body {
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-size: 65.5%;
-    font-family: 'nino_mtavruli';
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    // src: url("../fonts/bpg-nino-mtavruli-webfont.woff") format('woff')
+}
+
+@font-face {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/bpg-nino-mtavruli-webfont.woff") format('woff')
 }

@@ -12,31 +12,21 @@ header {
             ul {
                 display: flex;
 
-                a:first-child {
-                    margin-right: 7px;
-                }
+                li:first-child {
 
-                a:nth-child(2) {
-
-                    li {
-                        color: $color-1;
+                    a {
+                        color: $color-2;
                     }
-                }
-
-                a:nth-child(3) {
-                    margin: 0 20px 0 17px;
-                }
-
-                a:last-child {
-                    margin-left: 20px;
                 }
 
                 .lang {
                     width: 45px;
                     height: 45px;
+                    margin-right: 5px;
+                    padding-top: 17px;
+                    padding-left: 2px;
                     border-radius: 25px;
-                    color: $color-2;
-                    font-size: 1.2rem;
+                    font-size: 13px;
                     text-align: center;
                     text-transform: uppercase;
                 }
@@ -48,10 +38,16 @@ header {
                 .profile {
                     width: 160px;
                     height: 45px;
+                    margin: 0 20px 0 17px;
+                    padding-top: 18px;
                     border-radius: 25px;
-                    background-color: $color-4;
-                    color: $color-2;
-                    font-size: 1.4rem;
+                    background-color: #8F419D;
+                    font-size: 14px;
+                    text-align: center;
+                    
+                    a {
+                        color: $color-2;
+                    }
                 }
 
                 .search {
@@ -64,7 +60,7 @@ header {
                         width: 30px;
                         height: 30px;
                         padding: 12px 0 0 19px;
-                        background-image: url ("/images/header/Search.png");
+                        background-image: url("/images/header/Search.png");
                         background-repeat: no-repeat;
                         background-position: center;
                     }
@@ -73,6 +69,7 @@ header {
                 .burgerMenu {
                     width: 45px;
                     height: 45px;
+                    margin-left: 20px;
                     border-radius: 25px;
                     background-color: $color-5;
 
@@ -82,7 +79,7 @@ header {
                         width: 46px;
                         height: 43px;
                         background: center;
-                        background-image: url ("/images/header/burger-menu.png");
+                        background-image: url("/images/header/burger-menu.png");
                         background-repeat: no-repeat;
                     }
                 }
