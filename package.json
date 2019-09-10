@@ -25,6 +25,7 @@
     "stylelint-scss": "^3.6.1"
   },
   "dependencies": {
+    "bpg-nino-mtavruli-bold": "^1.0.0",
     "yarn": "^1.17.3"
   }
 }
